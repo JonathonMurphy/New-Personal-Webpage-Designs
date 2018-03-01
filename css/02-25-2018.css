@@ -1,0 +1,56 @@
+body {
+	background-color: #bac1d4;
+}
+
+.border {
+	background-color: #bac1d4;
+}
+
+.outerContainer {
+
+}
+
+.innerContainer {
+	background-color: #b77553; 
+	border: solid 15px #bac1d4;
+}
+
+.resumeContent {
+	text-align: center;
+	color: #bac1d4;
+}
+
+.profilePic {
+	border-radius: 100%;	
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.innerContainer{
+		height: 980px;
+	}
+	
+	.resumeContent {
+		margin-top: 200px;
+	}
+	
+	.profilePic {
+		width: 500px;
+		margin-top: 200px;
+	}
+}
