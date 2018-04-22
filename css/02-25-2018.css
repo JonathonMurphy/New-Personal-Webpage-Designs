@@ -2,55 +2,134 @@ body {
 	background-color: #bac1d4;
 }
 
-.border {
-	background-color: #bac1d4;
-}
-
 .outerContainer {
-
+	background-color: #bac1d4;
+	margin-right: 30px;
+	margin-left: 30px;
 }
 
 .innerContainer {
 	background-color: #b77553; 
+	height: 980px;
 	border: solid 15px #bac1d4;
 }
 
 .resumeContent {
 	text-align: center;
 	color: #bac1d4;
+	margin-top: 10%;
 }
 
 .profilePic {
-	border-radius: 100%;	
+	border-radius: 100%;
+	margin-top: 20%;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
 	
+
+/* 100 Pixels */
+@media (min-width: 100px) {
+	.profilePic {
+		width: 80px;
+	}
+}
+	
+/* 250 Pixels */
+@media (min-width: 250px) {
+	.profilePic {
+		width: 150px;
+	}
 }
 
-/* Medium devices (tablets, 768px and up) */
+/* 360 Pixels */
+@media (min-width: 360px) {
+	.profilePic {
+		width: 220px;
+		margin-left: 10%;
+	}
+}
+
+/* 375 Pixels */
+@media (min-width: 375px) {
+	.profilePic {
+		width: 220px;
+		margin-left: 10%;
+	}
+}
+
+/* 411 Pixels */
+@media (min-width: 411px) {
+	.profilePic {
+		width: 250px;
+		margin-left: 10%;
+	}
+}
+
+/* 576 Pixels */
+@media (min-width: 570px) {
+	.profilePic {
+		width: 325px;
+		margin-left: 20%;
+	}
+}
+
+/* 600 Pixels */
+@media (min-width: 600px) {
+	.profilePic {
+		width: 250px;
+		margin-left: 15%;
+	}
+}
+
+/* 768 Pixels */
 @media (min-width: 768px) {
-	
+	.profilePic {
+		width: 350px;
+		margin-left: 25%;
+	}
 }
 
-/* Large devices (desktops, 992px and up) */
+/* 800 Pixels */
+@media (min-width: 800px) {
+	.profilePic {
+		width: 375px;
+		margin-left: 25%;
+	}
+}
+
+/* 992 Pixels */
 @media (min-width: 992px) {
-	
+	.profilePic {
+		width: 400px;
+		margin-left: 25%;
+	}
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
+/* 1024 Pixels */
+@media (min-width: 1024px) {
+	.profilePic {
+		width: 450px;
+		margin-left: 25%;
+	}
+}
+
+/* 1200 Pixels */
 @media (min-width: 1200px) {
-	.innerContainer{
-		height: 980px;
-	}
-	
-	.resumeContent {
-		margin-top: 200px;
-	}
-	
 	.profilePic {
 		width: 500px;
-		margin-top: 200px;
+		margin-left: 25%;
+	}
+}
+
+/* 1858 Pixels */
+@media (min-width: 1858px) {
+	.profilePic {
+		width: 500px;
+		margin-left: 25%;
+	}
+	
+	.socialMedia{
+		margin-top: 10%;
+		margin-left: 15%;
 	}
 }
