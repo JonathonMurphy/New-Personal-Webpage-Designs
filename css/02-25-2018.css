@@ -2,6 +2,19 @@ body {
 	background-color: #bac1d4;
 }
 
+h2 {
+	font-weight: 700;
+}
+
+h4 {
+	font-weight: 350;
+}
+
+p {
+	font-weight: 150;
+}
+
+
 .outerContainer {
 	background-color: #bac1d4;
 	margin-right: 30px;
