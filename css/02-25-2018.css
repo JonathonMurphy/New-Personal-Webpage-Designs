@@ -10,8 +10,12 @@ h4 {
 	font-weight: 350;
 }
 
-p {
+p, a {
 	font-weight: 150;
+}
+
+a, a:hover, a:active, a:visited {
+	color: #bac1d4;
 }
 
 
