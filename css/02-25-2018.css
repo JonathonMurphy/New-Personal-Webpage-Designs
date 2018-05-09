@@ -26,7 +26,7 @@ a, a:hover, a:active, a:visited {
 }
 
 .innerContainer {
-	background-color: #b77553; 
+	background-color: #b77553;
 	height: 980px;
 	border: solid 15px #bac1d4;
 }
@@ -47,34 +47,34 @@ a, a:hover, a:active, a:visited {
 	margin-top: 12px;
 }
 
-	
+
 
 /* 100 Pixels */
 @media (min-width: 100px) {
 	.profilePic {
 		width: 80px;
 	}
-	
+
 	.socialMedia{
 		margin-top: 10%;
 		margin-left: 15%;
 	}
 }
-	
+
 /* 250 Pixels */
 @media (min-width: 250px) {
 	.profilePic {
 		width: 150px;
 	}
-	
+
 	.socialMedia{
 		margin-top: 10%;
 		margin-left: 15%;
 	}
-	
+
 	.socialMediaIcon {
 		width: 48px;
-	}	
+	}
 }
 
 /* 320 Pixels */
@@ -83,16 +83,16 @@ a, a:hover, a:active, a:visited {
 		width: 150px;
 		margin-left: 14%;
 	}
-	
+
 	.socialMedia{
 		margin-top: 63%;
 		margin-left: 4%;
 	}
-	
+
 	.socialMediaIcon{
 		width: 32px;
 	}
-	
+
 }
 
 /* 360 Pixels */
@@ -101,15 +101,15 @@ a, a:hover, a:active, a:visited {
 		width: 220px;
 		margin-left: 5%;
 	}
-	
+
 	.socialMedia{
 		margin-top: 17.5%;
 		margin-left: 2%;
 	}
-	
+
 	.socialMediaIcon {
 		width: 48px;
-	}	
+	}
 }
 
 /* 375 Pixels */
@@ -118,12 +118,12 @@ a, a:hover, a:active, a:visited {
 		width: 220px;
 		margin-left: 7%;
 	}
-	
+
 	.socialMedia{
 		margin-top: 15%;
 		margin-left: 3%;
 	}
-	
+
 	.socialMediaIcon{
 		width: 48px;
 	}
@@ -135,7 +135,7 @@ a, a:hover, a:active, a:visited {
 		width: 220px;
 		margin-left: 10%;
 	}
-	
+
 	.socialMedia{
 		margin-top: 14%;
 		margin-left: 4%;
@@ -148,12 +148,12 @@ a, a:hover, a:active, a:visited {
 		width: 250px;
 		margin-left: 8%;
 	}
-	
+
 	.socialMedia{
 		margin-top: 0%;
 		margin-left: 5%;
 	}
-	
+
 	.socialMediaIcon {
 		width: 48px;
 	}
@@ -165,12 +165,12 @@ a, a:hover, a:active, a:visited {
 		width: 250px;
 		margin-left: 16%;
 	}
-	
+
 	.socialMedia{
 		margin-top: 4%;
 		margin-left: 5%;
 	}
-	
+
 	.socialMediaIcon {
 		width: 48px;
 	}
@@ -182,12 +182,12 @@ a, a:hover, a:active, a:visited {
 		width: 325px;
 		margin-left: 20%;
 	}
-	
+
 	.socialMedia{
 		margin-top: 10%;
 		margin-left: 15%;
 	}
-	
+
 	.socialMediaIcon {
 		width: 64px;
 	}
@@ -200,7 +200,7 @@ a, a:hover, a:active, a:visited {
 		margin-left: 5%;
 		margin-top: 65%;
 	}
-	
+
 	.socialMedia{
 		margin-top: 54%;
 		margin-left: 10%;
@@ -214,7 +214,7 @@ a, a:hover, a:active, a:visited {
 		margin-left: 5%;
 		margin-top: 65%;
 	}
-	
+
 	.socialMedia{
 		margin-top: 49%;
 		margin-left: 10%;
@@ -228,7 +228,7 @@ a, a:hover, a:active, a:visited {
 		margin-left: 10%;
 		margin-top: 30%;
 	}
-	
+
 	.socialMedia{
 		margin-top: 38%;
 		margin-left: 10%;
@@ -241,7 +241,7 @@ a, a:hover, a:active, a:visited {
 		width: 375px;
 		margin-left: 10%;
 	}
-	
+
 	.socialMedia{
 		margin-top: 36%;
 		margin-left: 10%;
@@ -254,7 +254,7 @@ a, a:hover, a:active, a:visited {
 		width: 400px;
 		margin-left: 25%;
 	}
-	
+
 	.socialMedia{
 		margin-top: 10%;
 		margin-left: 15%;
@@ -267,7 +267,7 @@ a, a:hover, a:active, a:visited {
 		width: 450px;
 		margin-left: 25%;
 	}
-	
+
 	.socialMedia{
 		margin-top: 28%;
 		margin-left: 15%;
@@ -280,11 +280,11 @@ a, a:hover, a:active, a:visited {
 		width: 500px;
 		margin-left: 25%;
 	}
-	
+
 	.socialMedia{
 		margin-top: 20%;
 		margin-left: 15%;
-	}	
+	}
 }
 
 /* 1280 Pixels */
@@ -293,24 +293,25 @@ a, a:hover, a:active, a:visited {
 		width: 500px;
 		margin-left: 25%;
 	}
-	
+
 	.socialMedia{
 		margin-top: 15.5%;
 		margin-left: 15%;
-	}	
+	}
 }
 
 /* 1440 Pixels */
 @media (min-width: 1440px) {
 	.profilePic {
 		width: 500px;
+		margin-top: 20%;
 		margin-left: 25%;
 	}
-	
+
 	.socialMedia{
-		margin-top: 11.75%;
+		margin-top: 10%;
 		margin-left: 13%;
-	}	
+	}
 }
 
 /* 1858 Pixels */
@@ -320,7 +321,7 @@ a, a:hover, a:active, a:visited {
 		margin-left: 25%;
 		margin-top: 18%
 	}
-	
+
 	.socialMedia{
 		margin-top: 10.25%;
 		margin-left: 15%;
