@@ -1,0 +1,193 @@
+@font-face {
+  font-family: ar-bonnie;
+  src: url(../fonts/ar-bonnie.ttf);
+  font-stretch: condensed;
+}
+
+body {
+  background-image: url(../img/foggy-trees.jpg);
+  background-position: center bottom;
+}
+
+body, html {
+  height: 100%;
+}
+
+h3 {
+    font-size: 4.563em;
+}
+
+h1 {
+  font-size: 6.250em;
+}
+
+img {
+  width: 240px;
+}
+
+.content-container {
+  background-color: #5f5f5f;
+  border-right: 6px solid #ac8d8e;
+  border-bottom: 6px solid #ac8d8e;
+  margin-top: 100px;
+  padding: 72px;
+}
+
+.card-container {
+  background-color: #a3a3a3;
+  border-right: 6px solid #ac8d8e;
+  border-bottom: 6px solid #ac8d8e;
+  margin-bottom: 17px;
+}
+
+.profile-pic {
+  margin-bottom: 15px;
+}
+
+.sub-text {
+  margin-top: 33px;
+}
+
+.ar-bonnie {
+  font-family: ar-bonnie;
+}
+
+.font-off-white {
+  color: #e3e3e3;
+}
+
+.font-white {
+  color: white;
+}
+
+.font-pink {
+  color: #ac8d8e;
+}
+
+.font-normal {
+  font-size: 1.688em;
+}
+
+.font-small {
+  font-size: 1em;
+}
+
+.georgia {
+  font-family: georgia;
+}
+
+#leftSide {
+  margin-top: 25px;
+  padding-bottom: 5px;
+}
+
+#rightSide{
+ opacity: ;
+}
+
+/* 100 Pixels */
+@media (min-width: 100px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+/* 250 Pixels */
+@media (min-width: 250px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+/* 320 Pixels */
+@media (min-width: 320px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+/* 360 Pixels */
+@media (min-width: 360px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+/* 375 Pixels */
+@media (min-width: 375px) {
+
+}
+
+/* 384 Pixels */
+@media (min-width: 384px) {
+
+}
+
+/* 411 Pixels */
+@media (min-width: 411px) {
+
+}
+
+/* 480 Pixels */
+@media (min-width: 480px) {
+
+}
+
+/* 576 Pixels */
+@media (min-width: 570px) {
+
+}
+
+/* 600 Pixels */
+@media (min-width: 600px) {
+
+}
+
+/* 640 Pixels */
+@media (min-width: 640px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+/* 768 Pixels */
+@media (min-width: 768px) {
+
+}
+
+/* 800 Pixels */
+@media (min-width: 800px) {
+
+}
+
+/* 992 Pixels */
+@media (min-width: 992px) {
+
+}
+
+/* 1024 Pixels */
+@media (min-width: 1024px) {
+
+}
+
+/* 1200 Pixels */
+@media (min-width: 1200px) {
+
+}
+
+/* 1280 Pixels */
+@media (min-width: 1280px) {
+
+}
+
+/* 1440 Pixels */
+@media (min-width: 1440px) {
+html {
+  font-size: 16px;
+}
+}
+
+/* 1858 Pixels */
+@media (min-width: 1854px) {
+
+}
