@@ -4,12 +4,7 @@
   font-stretch: condensed;
 }
 
-body {
-  background-image: url(../img/foggy-trees.jpg);
-  background-position: center bottom;
-}
-
-body, html {
+html, body {
   height: 100%;
 }
 
@@ -25,11 +20,17 @@ img {
   width: 240px;
 }
 
+.container-fluid {
+  background-color: #fdf5f2;
+  background-image: url(../img/foggy-trees-tall.jpg);
+  background-position: center bottom;
+}
+
 .content-container {
   background-color: #5f5f5f;
   border-right: 6px solid #ac8d8e;
-  border-bottom: 6px solid #ac8d8e;
-  margin-top: 100px;
+  border-bottom: 8px solid #ac8d8e;
+  margin-top: 77px;
   padding: 72px;
 }
 
@@ -48,8 +49,16 @@ img {
   margin-top: 33px;
 }
 
+.background-pink {
+  background-color: #ac8d8e;
+}
+
 .ar-bonnie {
   font-family: ar-bonnie;
+}
+
+.georgia {
+  font-family: georgia;
 }
 
 .font-off-white {
@@ -72,8 +81,23 @@ img {
   font-size: 1em;
 }
 
-.georgia {
-  font-family: georgia;
+.font-spaced-narrow {
+  letter-spacing: 3px;
+}
+
+.font-spaced-wide {
+  letter-spacing: 8px;
+  word-spacing: 30px;
+}
+
+a:link, a:visited, a:active  {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5f5f5f;
+    text-decoration: none;
 }
 
 #leftSide {
