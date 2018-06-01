@@ -8,12 +8,16 @@ html, body {
   height: 100%;
 }
 
+body {
+  opacity: 0;
+}
+
 h3 {
-    font-size: 4.563em;
+    font-size: 4.563rem;
 }
 
 h1 {
-  font-size: 6.250em;
+  font-size: 6.250rem;
 }
 
 img {
@@ -30,7 +34,7 @@ img {
   background-color: #5f5f5f;
   border-right: 6px solid #ac8d8e;
   border-bottom: 8px solid #ac8d8e;
-  margin-top: 77px;
+  /*margin-top: 77px;*/
   padding: 72px;
 }
 
@@ -51,6 +55,7 @@ img {
 
 .background-pink {
   background-color: #ac8d8e;
+  border-top: 2px solid #ac8d8e;
 }
 
 .ar-bonnie {
@@ -74,11 +79,11 @@ img {
 }
 
 .font-normal {
-  font-size: 1.688em;
+  font-size: 1.688rem;
 }
 
 .font-small {
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .font-spaced-narrow {
@@ -87,7 +92,8 @@ img {
 
 .font-spaced-wide {
   letter-spacing: 8px;
-  word-spacing: 30px;
+  word-spacing: 50px;
+  line-height: 12px;
 }
 
 a:link, a:visited, a:active  {
@@ -109,99 +115,95 @@ a:hover {
  opacity: ;
 }
 
+#slideCardOneHTML {
+  display: none;
+  opacity: 0;
+  margin-right: 200px;
+}
+
+#slideCardTwoHTML {
+  display: none;
+  opacity: 0;
+  margin-right: 200px;
+}
+
 /* 100 Pixels */
 @media (min-width: 100px) {
   html {
-    font-size: 6px;
+    font-size: 3px;
   }
 }
 
 /* 250 Pixels */
 @media (min-width: 250px) {
   html {
-    font-size: 6px;
+    font-size: 4px;
   }
 }
 
 /* 320 Pixels */
 @media (min-width: 320px) {
   html {
-    font-size: 6px;
+    font-size: 5px;
   }
 }
 
 /* 360 Pixels */
 @media (min-width: 360px) {
   html {
-    font-size: 8px;
+    font-size: 7px;
   }
 }
 
 /* 375 Pixels */
 @media (min-width: 375px) {
-
-}
-
-/* 384 Pixels */
-@media (min-width: 384px) {
-
-}
-
-/* 411 Pixels */
-@media (min-width: 411px) {
-
-}
-
-/* 480 Pixels */
-@media (min-width: 480px) {
-
-}
-
-/* 576 Pixels */
-@media (min-width: 570px) {
-
+  html {
+    font-size: 8px;
+  }
 }
 
 /* 600 Pixels */
 @media (min-width: 600px) {
+  html {
+    font-size: 6px;
+  }
 
+  #leftSide {
+    margin-right: 15px;
+  }
+
+  #rightSide{
+   margin-left: 15px;
+  }
 }
 
 /* 640 Pixels */
 @media (min-width: 640px) {
   html {
-    font-size: 12px;
+    font-size: 7px;
   }
 }
 
 /* 768 Pixels */
 @media (min-width: 768px) {
+  html {
+    font-size: 10px;
+  }
 
-}
+  #leftSide {
+    margin-right: 20px;
+  }
 
-/* 800 Pixels */
-@media (min-width: 800px) {
-
-}
-
-/* 992 Pixels */
-@media (min-width: 992px) {
-
-}
-
-/* 1024 Pixels */
-@media (min-width: 1024px) {
-
-}
-
-/* 1200 Pixels */
-@media (min-width: 1200px) {
-
+  #rightSide{
+   margin-left: 20px;
+  }
 }
 
 /* 1280 Pixels */
 @media (min-width: 1280px) {
-
+  html {
+    font-size: 16px;
+  }
 }
 
 /* 1440 Pixels */
@@ -209,9 +211,4 @@ a:hover {
 html {
   font-size: 16px;
 }
-}
-
-/* 1858 Pixels */
-@media (min-width: 1854px) {
-
 }
