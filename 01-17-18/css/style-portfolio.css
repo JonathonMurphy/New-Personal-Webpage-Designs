@@ -1,0 +1,127 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background: #fff7e6;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;  
+}
+
+h3 {
+  color: teal; 
+}
+
+h5 {
+  font-weight: 800;
+  color: teal;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+}
+
+cite {
+  white-space: nowrap;
+}
+
+nav { 
+  display: grid;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  padding: auto;
+  margin: auto;
+  grid-template: 10px / 8fr 1fr 1fr 1fr 1fr;
+  background-color: teal;
+  color: #fff7e6;
+  z-index: 5;
+}
+
+.outer-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 50vh;
+}
+
+
+.inner-container {
+	padding-top: 115px;
+	padding-bottom: 75px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+
+
+
+.artistname {
+  color: teal;
+  font-weight: 900;
+}
+
+.albumart {
+  height: 200px;
+  width: 200px;
+}
+
+.name {
+  color: #fff7e6;
+  grid-column: 1/2;
+  align-content: center;
+  align-items: center;
+}
+
+.active{
+  color: black;
+}
+
+.home {
+  color: #fff7e6;
+  grid-area: blog;
+  grid-column: 2/3;
+  align-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.blog {
+  color: #fff7e6;
+  grid-area: blog;
+  grid-column: 3/4;
+  align-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.portfolio {
+  color: #fff7e6;
+  grid-area: portfolio;
+  grid-column: 4/5;
+  align-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.resume {
+  color: #fff7e6;
+  grid-area: resume;
+  grid-column: 5/6;
+  align-content: center;
+  align-items: center;
+  padding: 5px;
+}

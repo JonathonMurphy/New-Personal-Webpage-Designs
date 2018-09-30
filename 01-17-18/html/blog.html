@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jonathon Seth Murphy</title>
+	<link href="https://fonts.googleapis.com/css?family=Cousine|Unica+One" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <nav class="banner">
+      <p class="name"></p>
+      <a href="../index.html" class="home">Home</a>
+      <a href="blog.html" class="blog">Blog</a>
+      <a href="portfolio.html" class="portfolio">Portiolio</a>
+      <a href="resume.html" class="resume">Resume</a>
+    </nav> 
+
+	<section class="outer-container">
+		
+			<div class="inner-container" id="blog-container">
+				
+				
+				
+				<div class="blog-post">
+				<h1>General Update & What I've Been up To</h1>
+				<time datetime=:2018-01-16">01/16/2018</time>
+					<p ><span>Whew, it&rsquo;s been a hot minute since I've added anything to the blog. 
+					That&rsquo;s not to say that I haven&rsquo;t been doing stuff, just that I have slacked 
+					off on documenting it. This will be a long post for that reason. I have been reading the 
+					a new book that I got for Christmas and I am loving it. Jon Duckett&rsquo;s &ldquo;Javascript 
+					&amp; JQuery&rdquo; is phenomenal at explaining the concepts and syntax of Javascript, and is 
+					really helping to cement all the information I have been learning from, and build on it. I am 
+					almost halfway through the Javascript and figure I will have it finished by the end of February.
+					</span></p>
+					<p>&nbsp;</p>
+					<p ><span>On top of my learning and reading about Javascript, I have developed a small new project. 
+					There is a music store in my town that has been recommended to me from my uncle who relied on them 
+					while he was building his electric guitar. I have been looking to learn some bluegrass standards 
+					on guitar and wanted to see if either of my local stores had their full inventory online, including 
+					sheet music books. Neither did, but the one my uncle had recommended &nbsp;has a site built with Wix, 
+					and running on flash. Which from what I understand is terribly outdated. So I have built from scratch a 
+					new website for them, with a much more updated design and functionality. I am going to go speak with the 
+					owners of the site soon and see if they would like to utilize my services. If they do their new site will 
+					be responsively designed and mobile friendly. I used the contents of their old site to build my version. 
+					You can check out the my version 
+					<a href="../My B2K/index.html" target=_blank>
+						here.
+					</a>
+					
+					</span></p>
+					<p>&nbsp;</p>
+					
+					<div class="blog-image-container">
+						<figure>
+							<a href="../My B2K/index.html" target=_blank>
+								<img src="../images/myB2K.png" alt="Screenshot of my version of B2K's website"> 
+							</a>
+							<br/>
+						</figure>
+					<p>&nbsp;</p>
+					<p ><span>Also, I&rsquo;ve written a piece of Javascript to automate the margin-top for this page. 
+					I feel really proud of it even though it&rsquo;s a rather simple function. This is the first piece of 
+					Javascript that I have written that I have gotten to implement in a real world application instead of 
+					just practicing on Codewars, or from a YouTube tutorial. Check out the code below; 
+					</span></p>
+					<p>&nbsp;</p>
+					<code class="code">
+					<p>function height() {</p>
+						<p class="indent-1">var blogContainer = document.getElementById("blog-container");</p>
+						<p class="indent-1">var blogContainerHeight = document.getElementById("blog-container").clientHeight; </p>
+						<p class="indent-1">var marginHeight = blogContainerHeight - 400; </p>
+						<p class="indent-1">blogContainer.style.marginTop = marginHeight + "px";</p>
+					<p>}</p>
+					<p>height();</p>
+					</code> 
+					<p>&nbsp;</p>
+					<p ><span>On the music front; I have been written a few more original songs, and I feel like I 
+					have a couple of keepers in there. I am going to try and start putting some of these up on YouTube, 
+					and on here. I have about half an album already recorded, and plan to release an Ep on here in the near 
+					future. I&rsquo;m am thinking about using a stript down recording method for the new songs aswell.
+					My idea is to just to use one condenser mic set at about the height of my clavicle and record both 
+					guitar and vocals at the same time. I am thinking it will lend itself to the acoustic &nbsp;material 
+					I have been working on. 
+					</span></p>
+					<p>&nbsp;</p>
+					<p><span> 
+					I have also installed Wordpress on my machine and plan on learning that and PHP after I have 
+					finished Javascript & JQuery by Jon Duckett. 
+					</span></p>
+					<p>&nbsp;</p>
+					<p><span>
+					Content centering V 2.0 coming next week. 
+					</span></p>
+					<p>&nbsp;</p>
+					<p><span> 
+					Hopefully, the next post won't be so far between.
+					</span></p>
+					<p>&nbsp;</p>
+					<p><span> 
+					Til next time! 
+					</span></p>
+				</div>
+				
+				<hr/>
+				
+				<div class="blog-post">
+					<h1>"Playing with JS" by Straight to Web</h1>
+					<time datetime=:2017-12-22">12/22/2017</time>
+					<p><a href="https://goo.gl/KTWZku" target="_blank">Playing with JS Playlist</a></p>
+					<p>I’ve been trying to learn Javascript lately. I have been doing the 
+					lessons on the free version of Codecademy, but they lack certain real world 
+					applications, and ways to utilize <abbr title="Javascript">JS</abbr> with webpages. So I found this tutorial 
+					from <a href="https://www.youtube.com/channel/UCBUYAp05p0anpndj0Ugt5WA" target="_blank">
+					Straight to Web</a> on YouTube. It’s a quick little tutorial showing 
+					you how to build a webpage that changes background color when the user interacts 
+					with certain parts of the page. I followed it’s instructions closely and found 
+					a couple of useful little tidbits. I also learned a couple overarching <abbr title="Javascript">JS</abbr> lessons 
+					by using it. Here I will explore what I learned and how it is helping me with <abbr title="Javascript">JS</abbr> 
+					in general. Also I have made some changes to his original lesson. I felt the UI/UX 
+					could be a little cleaner, and some of the <abbr title="Javascript">JS</abbr> code was a little redundant, hence 
+					the commented out section that you will see below.</p>
+					<br/>
+					<div class="blog-image-container">
+						<figure>
+							<iframe src="../playing-with-js-4/index.html" height="690" width="603"></iframe>
+							 
+							<figcaption>
+							<a href="https://codepen.io/StraightToWeb/pen/rygNvw" target="_blank">
+							Straight to Web's 
+							</a>
+							Version of the Project
+							</figcaption>
+							
+							<br/>
+						</figure>
+					</div>
+					<br/>
+					<div class="blog-image-container">
+						<figure>
+							<iframe src="../Playing with JS/index.html" height="690" width="603"></iframe>
+							<br/>
+							<figcaption>
+							<a href="../Playing with JS/index.html" target="_blank">
+							My Version
+							</a>
+							of the Project
+							</figcaption>
+						</figure>
+					</div>
+					<br/>
+					<p>First off the HTML in it’s finished iteration.</p>
+					<code class="code">
+					
+<p>&lt;body&gt;</p>
+<p class="indent-1">&lt;h1&gt;Seth's Website&lt;/h1&gt;</p>
+<p class="indent-1">&lt;div class="container" id="container"&gt;</p>
+<p class="indent-2">&lt;p&gt;This is &lt;a href=""&gt;Seth's site.&lt;/a&gt;Click below to change the color of my website.&lt;/p&gt;</p>
+<p class="indent-2">&lt;div class="ui-panel"&gt;</p>
+<p class="indent-3">&lt;label&gt;Color: &lt;/label&gt;</p>
+<p class="indent-3">&lt;input id="color-picker" type="color" value="#cccccc"&gt; </p>
+<p class="indent-2">&lt;/div&gt;</p>
+<p class="indent-1">&lt;/div&gt;</p>
+<p class="indent-1">&lt;script src="script.js" type="application/javascript"&gt;&lt;/script&gt;</p>
+<p>&lt;/body&gt;</p>
+
+					</code>
+					<br/>
+					<p>The CSS</p>
+					<code> 
+					
+<p>h1 {</p>
+<p class="indent-1">  color: #000;</p>
+<p class="indent-1">  text-align: center;</p>
+<p>}</p>
+<br/>
+<p>p {</p>
+<p class="indent-1">  color: gray;</p>
+<p>}</p>
+<br/>
+<p>body {</p>
+<p class="indent-1">  background-color: lightblue;</p>
+<p>}</p>
+<br/>
+<p>a {</p>
+<p class="indent-1">  color: gray;</p>
+<p>}</p>
+<br/>
+<p>.container {</p>
+<p class="indent-1">  background-color: #fefefe;</p>
+<p class="indent-1">  border-radius: 5px;</p>
+<p class="indent-1">  cursor: pointer;</p>
+<p class="indent-1">  margin: 0 auto;</p>
+<p class="indent-1">  padding: 10px 2px;</p>
+<p class="indent-1">  text-align: center;</p>
+<p class="indent-1">  transition-duration: 1s;</p>
+<p class="indent-1">  width: 400px;</p>
+<p>}</p>
+<br/>
+<p>.container:hover {</p>
+<p class="indent-1">  background-color: #ababab;</p>
+<p class="indent-1">  transition-duration: 1s;</p>
+<p>}</p>
+<br/>
+<p>.container:hover p, .container:hover a {</p>
+<p class="indent-1">  color: #fff;</p>
+<p class="indent-1">  transition-duration: 1s;</p>
+<p>}</p>
+
+					
+					</code> 
+					<br/>
+					<p>And lastly the Javascript</p>
+					<code> 
+					
+<p>/*</p>
+<p>document.getElementById("container").addEventListener("click", function () {</p>
+<p class="indent-1">    changeBackgroundColor (); </p>
+<p>});</p>
+<br/>
+<p>function changeBackgroundColor () {</p>
+<p class="indent-1">    "use strict";</p>
+<p class="indent-1">    var response = prompt("What is your favorite color?");</p>
+<p class="indent-1">    document.body.style.backgroundColor = response;</p>
+<p>};</p>
+<p>*/</p>
+<br/>
+<p>document.getElementById("color-picker").addEventListener("change", function () {</p>
+<p class="indent-1">	getColorPickerValue ();</p>
+<p>});</p>
+<br/>
+<br/>
+<p>function getColorPickerValue () {</p>
+<p class="indent-1">    var color = document.getElementById("color-picker").value;</p>
+<br/>	
+<p class="indent-1">    document.body.style.backgroundColor = color;</p>
+<p>};</p>
+<br/>
+<p>getColorPickerValue ();</p>
+
+					
+					</code>
+					
+					<br/>
+					
+					<p>Alright, so what did I learn from this exercise? First off, 
+					the Developer Tools in Chrome are indispensable when troubleshooting 
+					the code. I ran into several instances where I had mistyped some 
+					small word. Like, typing getElementByID instead of getElementById, 
+					or document.body.sytle instead of document.body.style. These threw 
+					me for a loop and had me searching my code at the lines specified 
+					in the Chrome dev tools to find the particular error that it was 
+					referencing.</p>
+					
+					<p>The other error I received was “Uncaught TypeError: Cannot read 
+					property 'addEventListener' of null”. After googling the error I 
+					discovered that I needed to move the &lt;script&gt;&lt;/script&gt; tag to a 
+					location after the Ids/Classes/Etc that the script is looking for, 
+					or else it will not find the necessary elements. I originally had 
+					the &lt;script&gt;&lt;/script&gt; tag in the header, when I moved it to below 
+					the last closing &lt;/div&gt; tag the problem was resolved.</p>
+					
+					<p>I commented out the changeBackgroundColor function that he adds 
+					in the beginning of the lesson for two reasons. I felt that it was 
+					unnecessary to have two functions for changing the background color, 
+					and once I had moved the color input to inside the main &lt;div&gt; of the 
+					page it created a conflict. Clicking the color input caused the prompt 
+					to appear as well as the color selector. So, I removed it and I solved 
+					both problems with a single action.</p>
+					
+					<p>The last useful tidbit that I learned is the usage of
+					<a href="http://www.jslint.com/" target="_blank">JSLint.com</a>. 
+					It helped me pick out small errors with in my code and to ensure the 
+					use of proper syntax.</p>
+					
+					<p>If you would like to play with my little webpage you can go 
+					<a href="Playing with JS/index.html" target="_blank"> here </a> 
+					and mess with it as much as you would like. The source code 
+					for the lesson, without my changes,  is available at 
+					<a href="https://codepen.io/StraightToWeb/pen/rygNvw" target="_blank"> 
+					Codepen</a></p>
+					
+				</div>
+				
+				<hr/>
+			
+				<div class="blog-post">
+					<h1 class="blog-post-header">
+					My method for centering content V 1.0
+					</h1>
+					<h3 class="blog-post-header">The HTML</h3>
+					
+						<code>
+	<p>&lt;body&gt;</p>
+	<p class="indent-1">&lt;section class="outer-container"&gt;</p>  
+	<p class="indent-2">&lt;div class="inner-container"&gt;</p>
+	<p class="indent-3">&lt;div class="content-container"&gt;</p>
+	<p class="indent-4">&lt;p>Content&lt;/p&gt;</p>
+	<p class="indent-3">&lt;/div&gt;</p>
+	<p class="indent-2">&lt;/div&gt;</p>
+	<p class="indent-1">&lt;/section&gt;</p>
+	<p>&lt;/body&gt;</p>
+</code>	
+
+					<h3 class="blog-post-header">The CSS</h3>
+					
+<code>
+
+  
+<p>.outer-container {</p>
+<p class="indent-1">  display: grid;</p>
+<p class="indent-1">  grid-template-columns: repeat(3 1fr);</p>
+<p class="indent-1">  grid-template-rows: repeat(2 1fr);</p>
+<p class="indent-1">  position: absolute;</p>
+<p class="indent-1">  top: 0;</p>
+<p class="indent-1">  bottom: 0;</p>
+<p class="indent-1">  left: 0;</p>
+<p class="indent-1">  right: 0;</p>
+<p class="indent-1">  margin: 5em;</p>
+<p>}</p>
+<br>
+<p>.inner-container {</p>
+<p class="indent-1">  display: grid;</p>
+<p class="indent-1">  margin: auto;</p>
+<p>}</p>
+<br>
+<p>.content-container {</p>
+<p class="indent-1">	grid-column: 2/3;</p>
+<p class="indent-1">	grid-row: 1/3;</p>
+<p class="indent-1">	margin: 5em;</p>
+<p class="indent-1">	align-content: center;</p>
+<p class="indent-1">	align-items: center;</p>
+<p class="indent-1">	padding-right: 15em;</p>
+<p class="indent-1">	padding-left: 15em;</p>
+<p class="indent-1">	padding-top: 10em;</p>
+<p class="indent-1">	padding-bottom: 10em;</p>
+<p>}</p>
+
+</code>					
+				
+				</div>
+				
+				<hr/> 
+				
+				<div class="blog-post">
+					
+					<div class="blog-image-container">
+						<figure>
+							<img src="../images/mandeville.jpg" alt="Coverted Cotton Mill Lofts in the Snow">
+							<br/>
+							<figcaption>
+							Test image for blog
+							</figcaption>
+						</figure>
+						<h3 class="blog-post-header">The HTML</h3>
+						
+						<code>
+						
+
+<p>&lt;div class="blog-image-container"&gt;</p>				
+<p class="indent-1">&lt;figure&gt;</p>
+<p class="indent-2">&lt;img src="test.jpg" alt=""&gt;</p>
+<p class="indent-2">&lt;br/&gt;</p>
+<p class="indent-2">&lt;figcaption&gt;</p>
+<p class="indent-2">Test image for blog</p>
+<p class="indent-2">&lt;/figcaption&gt;</p>
+<p class="indent-1">&lt;/figure&gt;</p>
+<p>&lt;/div&gt;</p>
+						
+						
+						</code>
+						<h3 class="blog-post-header">The CSS</h3>
+						<code>
+						
+						
+<p>.blog-image-container img {</p>
+<p class="indent-1">	width: 96%;</p>
+<p class="indent-1">	height: 54%;</p>
+<p>}</p>
+						
+						</code>
+						
+					</div>
+					
+				</div>
+				
+				<hr/>
+				
+				<div class="blog-post">
+					<p>
+					This blog will be a testament to my coding journey. 
+					It will be the work bench future projects are built on. 
+					It will be the notebook I refer back to. 
+					It will be the thing I show off to friends. 
+					</p>
+				</div>
+				
+				
+				
+			</div>
+			
+	</section>
+    <script src="../js/adjustingBlogContainerMarginTop.js"></script>
+  </body>
+</html>
