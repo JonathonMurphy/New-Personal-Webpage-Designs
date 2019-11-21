@@ -1,0 +1,267 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #2eb5c9;
+  font-family: 'Old Standard TT', serif;
+}
+
+body:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      -webkit-background-size: cover;
+      -webkit-background-attachment: fixed;
+      -moz-background-size: cover;
+      -moz-background-attachment: fixed;
+      -o-background-size: cover;
+      -o-background-attachment: fixed;
+      background-size: cover;
+}
+
+a {
+  text-decoration: underline;
+}
+/* unvisited link */
+a:link {
+    color: #292b2c;
+}
+/* visited link */
+a:visited {
+    color: #292b2c;
+}
+/* mouse over link */
+a:hover {
+    color: #292b2c;
+}
+/* selected link */
+a:active {
+    color: #292b2c;
+}
+
+.parallax_container {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -webkit-background-attachment: fixed;
+  -moz-background-size: cover;
+  -moz-background-attachment: fixed;
+  -o-background-size: cover;
+  -o-background-attachment: fixed;
+}
+
+.parallax_container_top {
+  background-image: url("../img/food_1.jpg");
+  height: 100vh;
+  background-color: #2eb5c9;
+}
+
+.parallax_container_middle {
+  background-image: url("../img/food_14.jpg");
+  height: 500px;
+  background-color: #FFC037;
+}
+
+.parallax_mobile_replacement {
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 575px) {
+  .parallax_container_desktop {
+    display: none;
+  }
+  .parallax_mobile_replacement {
+    display: block;
+
+  }
+}
+
+h3 {
+  margin: 10vw;
+}
+
+.header_text {
+  font-size: 5vw;
+  font-family: 'Homemade Apple', cursive;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 575px) {
+  .header_text {
+    font-size: 11vw;
+  }
+}
+
+.header_text_right {
+  margin-left: 2vw;
+}
+
+.header_logo {
+  width: 25vw;
+}
+
+@media only screen and (max-width: 575px) {
+  .header_logo {
+    width: 37vw;
+  }
+}
+
+.proclamation {
+  font-family: 'Homemade Apple', cursive;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.menu {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.menu_header {
+  margin-top: 20px;
+  margin-bottom: -15px;
+}
+
+.menu_header_text {
+  font-family: 'Homemade Apple', cursive;
+  text-decoration: underline;
+}
+
+.menu_imgs {
+  width: 25vw;
+}
+
+.about_us {
+  background-color: #FFC037;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+
+.about_us_text_left {
+text-align: left; !important
+}
+.about_us_text_right {
+text-align: right; !important
+}
+
+@media only screen and (max-width: 575px) {
+  .about_us_text_left {
+    text-align: center;
+  }
+  .about_us_text_right {
+    text-align: center;
+  }
+}
+
+.about_us_bottom_text {
+  margin-bottom: 50px;
+}
+
+.food_img {
+  width: 35vw;
+}
+
+@media only screen and (max-width: 575px) {
+  .food_img {
+    width: 75vw;
+  }
+}
+
+.iframe_map {
+  margin-bottom: 50px;
+}
+
+.social_media {
+  width: 5vw;
+  margin-bottom: 3vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+@media only screen and (max-width: 575px) {
+  .social_media {
+    margin-bottom: 7vw;
+  }
+}
+
+.footer_text {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 575px) {
+  .hours {
+    margin-bottom: 25px; !important
+  }
+}
+
+
+.jellyfish-top {
+  background-color: pink;
+  height: 50px;
+  width: 100px;
+  border-radius: 50px 50px 0px 0px;
+  position: relative;
+  left: 3px;
+}
+
+.jellyfish-bubble {
+  background-color: pink;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  position: absolute;
+  top: 40px;
+}
+
+.jellyfish-eye {
+  background-color: white;
+  height: 5px;
+  width: 5px;
+  border-radius: 10px;
+  position: absolute;
+  top: 20px;
+}
+
+.jellyfish-eye-1 {
+  left: 30px;
+}
+
+.jellyfish-eye-2 {
+  left: 60px;
+}
+
+.jellyfish-bubble-1 {
+  left: ;
+}
+.jellyfish-bubble-2 {
+  left: 20px;
+}
+.jellyfish-bubble-3 {
+  left: 40px;
+}
+.jellyfish-bubble-4 {
+  left: 60px;
+}
+.jellyfish-bubble-5 {
+  left: 80px;
+}
+.jellyfish-bubble-6 {
+  left: ;
+}
+.jellyfish-bubble-7 {
+  left: ;
+}

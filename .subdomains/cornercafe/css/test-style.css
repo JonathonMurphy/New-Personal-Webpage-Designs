@@ -1,0 +1,31 @@
+html body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  font-family: "Yanone Kaffeesatz";
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  line-height: 1.5em;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  width: 100px;
+  height: 100px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  perspective: 1px;
+  perspective-origin: 0 0;
+}
+
+.parallax-child {
+  width: 100px;
+  height: 100px;
+  transform-origin: 0 0;
+  transform: translateZ(-2px) scale(3);
+  background-image: url("../img/food_14.jpg");
+}
